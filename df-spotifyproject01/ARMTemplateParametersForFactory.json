@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-spotifyproject01"
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"spotify_sql_password": {
+			"value": ""
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://spotifystorage01.dfs.core.windows.net/"
+		},
+		"spotify_sql_properties_typeProperties_server": {
+			"value": "serverspotifyproject.database.windows.net"
+		},
+		"spotify_sql_properties_typeProperties_database": {
+			"value": "Db-Spotify-Project"
+		},
+		"spotify_sql_properties_typeProperties_userName": {
+			"value": "adminshivanshu"
+		}
+	}
+}
